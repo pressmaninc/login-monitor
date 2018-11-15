@@ -1,0 +1,40 @@
+#wp-admin-bar-login-monitor {
+  .ab-icon:before {
+    content: "\f110";
+    top: 3px;
+  }
+
+  #wp-admin-bar-login-monitor-detail {
+    .ab-item {
+      height: auto;
+
+      &:hover {
+        color: inherit;
+      }
+
+      .lm-badge {
+        display: inline-block;
+        line-height: 1;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: bold;
+
+        .lm-badge-str {
+          line-height: 1;
+          display: inline-block;
+          position: relative;
+          top: 25%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 782px) {
+  #wp-toolbar > ul > #wp-admin-bar-login-monitor {
+    display: block;
+  }
+}

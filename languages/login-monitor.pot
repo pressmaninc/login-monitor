@@ -1,0 +1,34 @@
+# Copyright (C) 2018 Login Monitor
+# This file is distributed under the same license as the Login Monitor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Monitor 0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/login-monitor\n"
+"POT-Creation-Date: 2018-11-15 08:27:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: login-monitor.php:83
+msgid "Logged in"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Login Monitor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Displays the currently logged in user (can access admin page) in real time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PRESSMAN"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.pressman.ne.jp"
+msgstr ""
