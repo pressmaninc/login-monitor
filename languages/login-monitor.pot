@@ -22,7 +22,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Displays the currently logged in user (can access admin page) in real time."
+"Displays current logged in users in administration screens in real time."
 msgstr ""
 
 #. Author of the plugin/theme

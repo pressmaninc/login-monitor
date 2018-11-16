@@ -1,0 +1,42 @@
+#wp-admin-bar-login-monitor .ab-icon:before {
+  content: "\f110";
+  top: 3px;
+}
+
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item {
+  height: auto;
+}
+
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item:hover {
+  color: inherit;
+}
+
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li {
+  vertical-align: bottom;
+  margin-bottom: 5px;
+}
+
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li .lm-badge {
+  display: inline-block;
+  line-height: 1;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  margin-right: 6px;
+}
+
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li .lm-badge .lm-badge-str {
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.25em;
+  top: 25%;
+}
+
+@media screen and (max-width: 782px) {
+  #wp-toolbar > ul > #wp-admin-bar-login-monitor {
+    display: block;
+  }
+}

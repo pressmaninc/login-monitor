@@ -6,7 +6,9 @@
   "license": "GPL-2.0-or-later",
   "scripts": {
     "build": "yarn build:scss && yarn build:js",
-    "build:scss": "node-sass --output-style compressed css/login-monitor.scss css/login-monitor.min.css",
+    "build:scss": "yarn build:scss2css && yarn build:css2min",
+    "build:scss2css": "node-sass --output-style expanded css/login-monitor.scss css/login-monitor.css",
+    "build:css2min": "node-sass --output-style compressed css/login-monitor.css css/login-monitor.min.css",
     "build:js": "env BABEL_ENV=production babel js/login-monitor.js --out-file js/login-monitor.min.js"
   },
   "devDependencies": {

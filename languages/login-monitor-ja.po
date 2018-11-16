@@ -24,8 +24,8 @@ msgid "Login Monitor"
 msgstr "ログインモニター"
 
 #. Description of the plugin/theme
-msgid "Displays the currently logged in user (can access admin page) in real time."
-msgstr "現在ログインしているユーザー（管理ページにアクセス可能）をリアルタイムで表示します。"
+msgid "Displays current logged in users in administration screens in real time."
+msgstr "管理画面に現在ログインしているユーザーをリアルタイムで表示します。"
 
 #. Author of the plugin/theme
 msgid "PRESSMAN"
