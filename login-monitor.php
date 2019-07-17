@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Login Monitor
  * Description: Displays current logged in users in administration screens in real time.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: PRESSMAN
  * Author URI: https://www.pressman.ne.jp
  * Text Domain: login-monitor
