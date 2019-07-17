@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit
+	bootstrap="tests/php/bootstrap.php"
+	backupGlobals="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	>
+	<testsuites>
+		<testsuite name="login-monitor-debug">
+			<file>./tests/php/test-login-monitor-script-debug.php</file>
+		</testsuite>
+	</testsuites>
+	<php>
+		<const name="SCRIPT_DEBUG" value="true"/>
+	</php>
+</phpunit>
