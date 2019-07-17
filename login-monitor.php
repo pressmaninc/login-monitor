@@ -48,7 +48,7 @@ class Login_Monitor {
 	}
 
 	public function load_text_domain() {
-		load_plugin_textdomain( 'login-monitor', false, plugin_basename( plugin_dir_path( __FILE__ ) ) . '/languages' );
+		load_plugin_textdomain( 'login-monitor', false, basename( __DIR__ ) . '/languages' );
 	}
 
 	public function enqueue() {
@@ -118,11 +118,10 @@ class Login_Monitor {
 			];
 		}
 
-		header( 'Content-Type: application/json' );
-		echo json_encode( $ary );
-		die();
+		wp_send_json( $ary );
 	}
 }
 
+global $lm;
 $lm = new Login_Monitor();
 $lm->run();

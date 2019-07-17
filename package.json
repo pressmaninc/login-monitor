@@ -1,19 +1,30 @@
 {
   "name": "login-monitor",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "login-monitor.js",
-  "author": "Yosuke Nakatsukasa <yosuke_nakatsukasa@pressman.ne.jp>",
+  "author": "PRESSMAN <wp10@pressman.ne.jp>",
   "license": "GPL-2.0-or-later",
   "scripts": {
     "build": "yarn build:scss && yarn build:js",
     "build:scss": "yarn build:scss2css && yarn build:css2min",
     "build:scss2css": "node-sass --output-style expanded css/login-monitor.scss css/login-monitor.css",
     "build:css2min": "node-sass --output-style compressed css/login-monitor.css css/login-monitor.min.css",
-    "build:js": "env BABEL_ENV=production babel js/login-monitor.js --out-file js/login-monitor.min.js"
+    "build:js": "env BABEL_ENV=production babel js/login-monitor.js --out-file js/login-monitor.min.js",
+    "test": "jest"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "babel-preset-minify": "^0.5.0"
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-preset-minify": "^0.5.0",
+    "jest": "^24.8.0",
+    "jest-fetch-mock": "^2.1.2"
+  },
+  "dependencies": {},
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "<rootDir>/tests/js/setup.js"
+    ]
   }
 }
