@@ -1,6 +1,8 @@
 # Login Monitor 
 
-![Logo](./assets/icon-128x128.png)
+![Logo](./assets/icon-128x128.png)  
+
+[![Build Status](https://travis-ci.org/pressmaninc/login-monitor.svg?branch=master)](https://travis-ci.org/pressmaninc/login-monitor)
 
 ## Description
 Displays current logged in users in administration screens in real time.
